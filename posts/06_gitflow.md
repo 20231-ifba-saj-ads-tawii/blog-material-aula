@@ -1,5 +1,59 @@
+---
+icon: edit
+date: 2023-05-12 20:40:00.00 -3
+tag:
+  - controle_versao
+  - git
+category:
+  - aula
+order: 6
+---
 
-# GitFlow
+
+# Git conceitos basicos
+
+O Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações em projetos de software. Ele permite que várias pessoas trabalhem em um projeto simultaneamente, registre todas as alterações feitas e facilite a colaboração e o gerenciamento de código-fonte. Aqui estão alguns conceitos básicos do Git:
+
+## Repositório
+
+Um repositório Git é um diretório onde o código-fonte e os arquivos relacionados são armazenados. Ele contém todo o histórico de alterações feitas no projeto.
+
+##  Clone
+O clone é o processo de criação de uma cópia local de um repositório remoto. Isso permite que você obtenha uma cópia completa do projeto em seu computador e trabalhe com ele.
+
+## Commit
+
+Um commit é uma operação fundamental no Git, que registra uma ou mais alterações no repositório. Cada commit tem uma mensagem associada que descreve as alterações feitas. Os commits permitem rastrear quem fez quais alterações e quando elas ocorreram.
+
+# Merge (mesclar)
+
+O merge é o processo de combinar as alterações de um branch a outro. Quando você deseja incorporar as alterações de um branch secundário de volta ao branch principal, você realiza um merge. O Git tenta combinar automaticamente as alterações, mas pode ocorrer conflitos se as mesmas partes do código forem modificadas em ambos os branches. Nesse caso, é necessário resolver manualmente os conflitos.
+
+## Branch (ramo)
+
+Um branch é uma linha de desenvolvimento separada dentro de um repositório. Ele permite que você crie e trabalhe em uma versão isolada do projeto sem afetar a linha principal de desenvolvimento (geralmente chamada de "branch master" ou "branch principal"). Os branches são úteis para adicionar novos recursos, corrigir bugs ou experimentar ideias sem comprometer o código estável.
+
+
+## Pull Request
+
+Uma Pull Request (PR) é uma solicitação para mesclar as alterações de um branch em outro branch. É uma prática comum em projetos colaborativos, onde um desenvolvedor solicita que outras pessoas revisem e aprovem suas alterações antes de mesclá-las ao branch principal. As PRs fornecem um local centralizado para revisão e discussão do código.
+
+## Remote
+
+O repositório remoto é uma cópia do seu repositório local, hospedada em um servidor. Ele permite que você compartilhe seu código com outras pessoas e colaboradores. O Git fornece comandos para clonar um repositório remoto para seu ambiente local e sincronizar suas alterações com o repositório remoto.
+
+
+## Fork
+
+Um fork é uma cópia independente de um repositório Git. É uma funcionalidade que permite a criação de um novo repositório a partir de outro existente. Ao fazer um fork, você cria uma cópia completa do repositório original, incluindo todo o histórico de commits.
+
+O fork é frequentemente usado quando você deseja contribuir para um projeto de código aberto ou colaborar com outros desenvolvedores. Ao fazer um fork de um repositório, você cria sua própria cópia onde pode fazer alterações sem afetar o projeto original. Isso permite que você experimente, faça melhorias ou corrija bugs em seu próprio repositório fork.
+
+Depois de fazer as alterações em seu repositório fork, você pode enviar uma Pull Request para o repositório original. Uma Pull Request é uma solicitação para que as alterações feitas no seu repositório sejam consideradas para incorporação ao projeto original. Os mantenedores do projeto original podem revisar suas alterações, discutir e decidir se desejam mesclá-las ao repositório principal.
+
+Os forks são especialmente úteis em projetos de código aberto, onde várias pessoas podem contribuir simultaneamente sem precisar de acesso direto ao repositório principal. Isso ajuda a manter o controle sobre o código-fonte do projeto original, enquanto permite a contribuição de uma ampla comunidade de desenvolvedores.
+
+
 <!-- 
 
 Modelo de fluxo de trabalho para versionamento de código que visa manter um processo organizado e padronizado entre as branches. 
