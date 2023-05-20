@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2023-05-12 20:40:00.00 -3
+date: 2023-05-19 20:40:00.00 -3
 tag:
   - controle_versao
   - git
@@ -17,6 +17,12 @@ O Git é um sistema de controle de versão distribuído amplamente utilizado par
 ## Repositório
 
 Um repositório Git é um diretório onde o código-fonte e os arquivos relacionados são armazenados. Ele contém todo o histórico de alterações feitas no projeto.
+
+Para iniciar um repositório:
+
+```shell
+git init
+```
 
 ##  Clone
 O clone é o processo de criação de uma cópia local de um repositório remoto. Isso permite que você obtenha uma cópia completa do projeto em seu computador e trabalhe com ele.
