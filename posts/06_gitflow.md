@@ -59,6 +59,9 @@ Depois de fazer as alterações em seu repositório fork, você pode enviar uma 
 
 Os forks são especialmente úteis em projetos de código aberto, onde várias pessoas podem contribuir simultaneamente sem precisar de acesso direto ao repositório principal. Isso ajuda a manter o controle sobre o código-fonte do projeto original, enquanto permite a contribuição de uma ampla comunidade de desenvolvedores.
 
+## Links
+
+[https://dev.to/leandronsp/pt-br-fundamentos-do-git-um-guia-completo-2djh](https://dev.to/leandronsp/pt-br-fundamentos-do-git-um-guia-completo-2djh)
 
 <!-- 
 
