@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2023-05-12 20:40:00.00 -3
+date: 2023-05-19 21:40:00.00 -3
 tag:
   - controle_versao
   - git
@@ -17,6 +17,12 @@ O Git é um sistema de controle de versão distribuído amplamente utilizado par
 ## Repositório
 
 Um repositório Git é um diretório onde o código-fonte e os arquivos relacionados são armazenados. Ele contém todo o histórico de alterações feitas no projeto.
+
+Para iniciar um repositório:
+
+```shell
+git init
+```
 
 ##  Clone
 O clone é o processo de criação de uma cópia local de um repositório remoto. Isso permite que você obtenha uma cópia completa do projeto em seu computador e trabalhe com ele.
@@ -53,6 +59,9 @@ Depois de fazer as alterações em seu repositório fork, você pode enviar uma 
 
 Os forks são especialmente úteis em projetos de código aberto, onde várias pessoas podem contribuir simultaneamente sem precisar de acesso direto ao repositório principal. Isso ajuda a manter o controle sobre o código-fonte do projeto original, enquanto permite a contribuição de uma ampla comunidade de desenvolvedores.
 
+## Links
+
+[https://dev.to/leandronsp/pt-br-fundamentos-do-git-um-guia-completo-2djh](https://dev.to/leandronsp/pt-br-fundamentos-do-git-um-guia-completo-2djh)
 
 <!-- 
 
