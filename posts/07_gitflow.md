@@ -242,4 +242,6 @@ O fluxo geral do Gitflow é:
 
 ## Referências
 
+https://blog.betrybe.com/git/git-flow/
+
 <!-- @include: ../bib/bib.md -->
