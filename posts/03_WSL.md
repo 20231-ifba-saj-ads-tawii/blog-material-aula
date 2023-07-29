@@ -11,7 +11,10 @@ order: 2
 
 ## WSL update
 
-<!--PowerShell Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -->
+<!--
+PowerShell Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux 
+wsl.exe --install --web-download
+-->
 
 Garanta que seu WSL está atualizado
 
