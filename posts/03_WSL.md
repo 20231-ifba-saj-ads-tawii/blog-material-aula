@@ -11,6 +11,8 @@ order: 2
 
 ## WSL update
 
+<!--PowerShell Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -->
+
 Garanta que seu WSL está atualizado
 
 ```console
